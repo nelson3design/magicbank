@@ -1,0 +1,14 @@
+div.Hero {
+	background-image: url(../assets/hero.jpg);
+	background-position: center top;
+	background-size: cover;
+	font-size: 30px;
+	border-radius: 0;
+	width: 100vw;
+}
+
+@media (max-width: 1199.98px) {
+	div.Hero {
+		font-size: 20px;
+	}
+}

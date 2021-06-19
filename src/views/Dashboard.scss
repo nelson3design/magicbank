@@ -1,0 +1,72 @@
+.user-avatar {
+	position: relative;
+
+	display: grid;
+	place-items: center;
+}
+
+.user-avatar .icon1 {
+	position: absolute;
+}
+
+.user-avatar .icon2 {
+	position: absolute;
+}
+.user {
+	position: relative;
+
+	display: grid;
+	place-items: center;
+}
+.dashboard {
+	@media screen and (min-width: 992px) {
+		height: auto;
+	}
+	.bouton {
+		color: #7b34b1;
+		font-size: 16px;
+		font-weight: 700;
+		text-decoration: none;
+		margin: 10px 0;
+		outline: none;
+	}
+
+	.bouton:hover {
+		color: #ffffff;
+		background-color: #7b34b1;
+		text-decoration: none;
+	}
+
+	.active {
+		color: #ffffff;
+		background-color: #7b34b1;
+		text-decoration: none;
+		outline: none;
+	}
+}
+a.nav-item.nav-link {
+	color: #626262;
+}
+a.nav-item.nav-link.active {
+	color: #7b34b1;
+}
+
+.boleto {
+	background-color: white;
+	color: black;
+}
+
+@media screen and (max-width: 375px) {
+	.text-valor {
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.text-valor {
+		font-size: 15px;
+	}
+}
+
+.valor {
+	color: red;
+}
