@@ -1,0 +1,28 @@
+@import "../variables.scss";
+.fundo {
+	background-image: url(../assets/Layer.png);
+	background-position: center top;
+	background-size: cover;
+	width: 100vw;
+	p {
+		font-size: 18px;
+		color: #ffffff;
+	}
+
+	h2 {
+		font-size: 56px;
+		color: #ffffff;
+		font-weight: 300;
+	}
+
+	div {
+		font-size: 18px;
+		color: #ffffff;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.fundo h2 {
+		font-size: 36px;
+	}
+}

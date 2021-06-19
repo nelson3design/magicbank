@@ -1,0 +1,13 @@
+@import "../variables.scss";
+.social a {
+	color: #7c7c7c;
+	:hover {
+		color: #443a50;
+	}
+}
+
+.footer {
+	border-bottom: 4px solid #e32e2e;
+	width: 100vw;
+	background-color: #f8f8f8;
+}

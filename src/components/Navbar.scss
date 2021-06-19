@@ -1,0 +1,13 @@
+@import "../variables.scss";
+.navbar {
+	background-color: #7b34b1;
+	border-bottom: 0.2rem solid #f05555;
+	width: 100vw;
+
+	.dropdown-toggle.nav-link {
+		color: white;
+	}
+	.dropdown-toggle.nav-link:hover {
+		color: #212529;
+	}
+}

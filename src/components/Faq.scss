@@ -1,0 +1,62 @@
+@import "../variables.scss";
+.fundo-2 {
+	background-color: #443a50;
+	width: 100vw;
+	p {
+		font-size: 16px;
+		line-height: 24px;
+		color: #ffffff;
+	}
+
+	h3 {
+		font-size: 56px;
+		color: #ffffff;
+		font-weight: 300;
+	}
+
+	h4 {
+		font-size: 20px;
+		color: #ffffff;
+	}
+
+	h5 {
+		font-size: 20px;
+		color: #ffffff;
+	}
+
+	span {
+		font-size: 20px;
+		line-height: 24px;
+		color: #a8a8a8;
+	}
+	.active {
+		color: #ffffff;
+	}
+}
+@media (max-width: 1199.98px) {
+	.fundo-2 h3 {
+		font-size: 36px;
+	}
+	.fundo-2 span {
+		font-size: 18px;
+	}
+
+	.fundo-2 h5 {
+		font-size: 11px;
+	}
+
+	.active-center {
+		text-align: center;
+	}
+}
+
+.quadro-1 h4 {
+	background-color: $fundo-1;
+}
+
+.quadro-2 {
+	background-color: $fundo-1;
+}
+.quadro {
+	border: 2px solid $fundo-1;
+}
